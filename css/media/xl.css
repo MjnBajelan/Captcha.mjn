@@ -1,0 +1,57 @@
+body{
+  background: darkolivegreen;
+}
+div.box {
+  width: 430px;
+  height: 315px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.box > div.captcha {
+  width: 50%;
+  height: 45%;
+  background-color: yellowgreen;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  font-weight: 600;
+  text-decoration: line-through;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.box > p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+div.input {
+  width: 70%;
+  height: 15%;
+  display: flex;
+}
+
+div.input > input {
+  all: unset;
+  width: 70%;
+  background-color: white;
+}
+div.input > button {
+  all: unset;
+  width: 30%;
+  height: 100%;
+  color: rgb(0, 73, 0);
+  text-align: center;
+  background-color: yellowgreen;
+  border-radius: 2.5px;
+  transition: all 150ms linear;
+  cursor: pointer;
+}
+
